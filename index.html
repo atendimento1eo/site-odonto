@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Odonto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            background-color: #ffffff;
+        }
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Botões totalmente invisíveis e prontos para uso */
+        .hotspot {
+            position: absolute;
+            background-color: rgba(0, 255, 0, 0); /* Invisível para o usuário */
+            cursor: pointer;
+        }
+
+        /* 1º WhatsApp (Topo) */
+        .btn-wsp-1 { top: 14.5%; left: 12%; width: 28%; height: 2.2%; }
+
+        /* 2º WhatsApp (Meio) */
+        .btn-wsp-2 { top: 30.5%; left: 62%; width: 26%; height: 2.0%; }
+
+        /* 3º WhatsApp (Missão/Visão) - Descido um tiquinho como você pediu */
+        .btn-wsp-3 { top: 69.2%; left: 24%; width: 22%; height: 2.2%; }
+
+        /* 4º WhatsApp ("Chame agora!" Final) */
+        .btn-wsp-4 { top: 80.5%; left: 63%; width: 24%; height: 2.0%; }
+
+        /* Instagram (Final) */
+        .btn-insta { top: 84.5%; left: 63%; width: 24%; height: 5.5%; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="site.png" alt="Equipe Odonto" class="banner-img">
+
+        <a href="https://wa.me/5521983012155" target="_blank" class="hotspot btn-wsp-1" title="WhatsApp"></a>
+        <a href="https://wa.me/5521983012155" target="_blank" class="hotspot btn-wsp-2" title="WhatsApp"></a>
+        <a href="https://wa.me/5521983012155" target="_blank" class="hotspot btn-wsp-3" title="WhatsApp"></a>
+        <a href="https://wa.me/5521983012155" target="_blank" class="hotspot btn-wsp-4" title="WhatsApp"></a>
+        <a href="https://instagram.com/equipe_odonto" target="_blank" class="hotspot btn-insta" title="Instagram"></a>
+    </div>
+
+</body>
+</html>
